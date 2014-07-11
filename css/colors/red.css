@@ -7,11 +7,11 @@ body {
 }
 
 #home, #footer {
-    background-color: #1f9bc9;
+    background-color: #e8e8e8;
 }
 
 .cta1 {
-    background-color:#1c8bb5;
+    background-color:#22afa7;
 }
 
 
@@ -24,7 +24,7 @@ body {
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span,
 .cta2 {
-    background-color: #f90706;
+    background-color: #5a73ac;
 }
 
 

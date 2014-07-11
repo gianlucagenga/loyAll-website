@@ -59,12 +59,15 @@ h1,h2,h3 {
 h1 {
     font-size:3rem;
     line-height:3.5rem;
+	color:#1da29f;
+	margin-top:1.0rem;
 }
 
 h2 {
     font-size:2.5rem;
     line-height:3.6rem;
     margin-bottom:1.7rem;
+	color:black;
 }
 
 h3 {
@@ -84,7 +87,7 @@ h5 {
     font-size:0.8125rem;
     line-height: 1rem;
     font-weight:300;
-    color:white;
+    color:black;
     text-transform:uppercase;
 }
 
@@ -310,7 +313,7 @@ hr {
 /*######################################*/
 
 #home {
-    height: 47.125rem;
+    height: 37.125rem;
     position:relative;
     z-index:0;
     overflow:hidden;
@@ -332,8 +335,8 @@ hr {
 }
 
 #logo {
-    margin-top: 4.875rem;
-    margin-bottom: 0.4rem;
+    margin-top: 0.875rem;
+    /*margin-bottom: 0.1rem;*/
     opacity:1;
 }
 
@@ -362,7 +365,7 @@ hr {
 /*######################################*/
 
 #about {
-    padding-top:6.5rem;
+    padding-top:1.5rem;
     padding-bottom:6.5rem;
     background:white;
     position:relative;
@@ -525,7 +528,7 @@ hr {
     margin:0px;
     padding-top:3.25rem;
     padding-bottom:3.25rem;
-    background:white;
+    background:while;
     position:relative;
     display:block;
     z-index:20;
@@ -683,7 +686,7 @@ hr {
 }
 
 #footer h2, #footer p {
-    color:white;
+    color:black;
 }
 
 
