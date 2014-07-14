@@ -2588,6 +2588,15 @@
             });
 
         alert(navigator.userAgent);
+
+        if (!Modernizr.svg) {
+            alert('svg not supported');
+            $('img[src$=svg]').each(function(index, item) {
+                imagePath = $(item).attr('src');
+                $(item).attr('src',imagePath.slice(0,-3)+'png');
+            });
+        }
+        
     </script>
     <script>
         var url ='images/icons.svg';
