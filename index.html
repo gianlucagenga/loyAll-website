@@ -2593,16 +2593,16 @@
             return !!(elem.getContext && elem.getContext('2d'));
         }
 
-        alert('HTML5 Supported = '+isCanvasSupported());
-        alert('Modernizr.svg = '+Modernizr.svg);
-        alert('Modernizr.canvas = '+Modernizr.canvas);
+  //      alert('HTML5 Supported = '+isCanvasSupported());
+        alert(' !Modernizr.svg = '+!Modernizr.svg);
+  //      alert('Modernizr.canvas = '+Modernizr.canvas);
     </script>
-    <script>
+ <!--   <script>
         var url ='images/icons.svg';
         var c=new XMLHttpRequest(); c.open('GET', url, false); c.setRequestHeader('Content-Type', 'text/xml'); c.send();
         document.body.insertBefore(c.responseXML.firstChild, document.body.firstChild)
     </script>
-
+-->
 	<!--###############################-->
     <!--Google Analytics #########-->
     <!--###############################-->
