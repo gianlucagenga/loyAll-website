@@ -2586,7 +2586,6 @@
                     }
                 });
 
-                alert('HTML5 Supported = 'isCanvasSupported());
             });
 
         function isCanvasSupported(){
@@ -2594,7 +2593,9 @@
             return !!(elem.getContext && elem.getContext('2d'));
         }
 
-
+        alert('HTML5 Supported = '+isCanvasSupported());
+        alert('Modernizr.svg = '+Modernizr.svg);
+        alert('Modernizr.canvas = '+Modernizr.canvas);
     </script>
     <script>
         var url ='images/icons.svg';
