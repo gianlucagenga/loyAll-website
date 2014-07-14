@@ -2585,7 +2585,16 @@
                       $('#preview').css({"opacity":"1"});
                     }
                 });
+
+                alert('HTML5 Supported = 'isCanvasSupported());
             });
+
+        function isCanvasSupported(){
+            var elem = document.createElement('canvas');
+            return !!(elem.getContext && elem.getContext('2d'));
+        }
+
+
     </script>
     <script>
         var url ='images/icons.svg';
